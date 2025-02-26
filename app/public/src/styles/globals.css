@@ -20,3 +20,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+text-paragraph {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2.25rem; /* equivalent to -4xl in Tailwind CSS */
+  margin-bottom: -4px;
+}
