@@ -33,9 +33,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl text-title font-bold mb-4 bg-[linear-gradient(90deg, #f2f2f2,#e8e1ea,#aac2ee)] ">Cadastro de Contatos</h1>
         <p className="font-title">Gerenciar seus contatos nunca foi tão rápido e prático!</p>
-      </div>
-      
-      <form onSubmit={handleSubmit}></form>
+      </div>    
     </section>
   )
 }
