@@ -32,7 +32,7 @@ export default function Hero() {
     <section className="bg-gradient-to-r from-indigo-400 to-blue-400 text-gray/50 text-title py-20 px-6 text-center">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl text-title font-bold mb-4 bg-[linear-gradient(90deg, #f2f2f2,#e8e1ea,#aac2ee)] ">Cadastro de Contatos</h1>
-        <p className="">Gerenciar seus contatos nunca foi tão rápido e prático!</p>
+        <p className="font-title">Gerenciar seus contatos nunca foi tão rápido e prático!</p>
       </div>
       
       <form onSubmit={handleSubmit}></form>
